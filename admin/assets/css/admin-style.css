@@ -1,0 +1,199 @@
+/**
+ * Admin styles for Warranty Checker
+ *
+ * @package WarrantyChecker
+ */
+
+/* Admin wrapper */
+.warranty-checker-admin {
+	margin: 20px 0;
+}
+
+/* Tabs */
+.warranty-checker-admin .nav-tab-wrapper {
+	margin-bottom: 20px;
+}
+
+.warranty-checker-admin .nav-tab .dashicons {
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+	vertical-align: text-bottom;
+}
+
+/* Content area */
+.warranty-checker-content {
+	background: #fff;
+	padding: 20px;
+	border: 1px solid #ccd0d4;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+/* Import section */
+.warranty-import-section h2,
+.warranty-data-section h2,
+.warranty-form-section h2,
+.warranty-template-section h2 {
+	margin-top: 0;
+}
+
+#warranty-import-result {
+	margin: 20px 0;
+	padding: 15px;
+	border-left: 4px solid #00a0d2;
+	background: #f7f7f7;
+}
+
+#warranty-import-result.success {
+	border-left-color: #46b450;
+}
+
+#warranty-import-result.error {
+	border-left-color: #dc3232;
+}
+
+/* Data management */
+.warranty-data-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.warranty-filters {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 20px;
+}
+
+.warranty-filters input[type="search"] {
+	min-width: 300px;
+}
+
+.warranty-data-section .wp-list-table {
+	margin-top: 20px;
+}
+
+.warranty-no-data {
+	text-align: center;
+	padding: 40px;
+	background: #f7f7f7;
+	border: 1px dashed #ccc;
+}
+
+/* Status badges */
+.warranty-status {
+	display: inline-block;
+	padding: 3px 8px;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.warranty-status-active {
+	background: #d5f4e6;
+	color: #0a5e3a;
+}
+
+.warranty-status-expired {
+	background: #f8d7da;
+	color: #721c24;
+}
+
+.warranty-status-claimed {
+	background: #d1ecf1;
+	color: #0c5460;
+}
+
+.warranty-status-void {
+	background: #f5f5f5;
+	color: #666;
+}
+
+/* Template section */
+.warranty-template-box {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	background: #f7f7f7;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	margin: 20px 0;
+}
+
+.template-icon {
+	font-size: 48px;
+	margin-right: 20px;
+	color: #0073aa;
+}
+
+.template-icon .dashicons {
+	width: 48px;
+	height: 48px;
+	font-size: 48px;
+}
+
+.template-info h3 {
+	margin: 0 0 10px 0;
+}
+
+.template-info p {
+	margin-bottom: 15px;
+}
+
+/* Buttons */
+.warranty-checker-admin .button .dashicons {
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+	vertical-align: text-bottom;
+}
+
+.warranty-delete {
+	color: #a00;
+}
+
+.warranty-delete:hover {
+	color: #dc3232;
+	border-color: #dc3232;
+}
+
+/* Loading states */
+.warranty-importing,
+.warranty-updating {
+	pointer-events: none;
+	opacity: 0.6;
+}
+
+/* Responsive */
+@media screen and (max-width: 782px) {
+	.warranty-data-header {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.warranty-data-actions {
+		margin-top: 10px;
+	}
+
+	.warranty-filters {
+		flex-direction: column;
+	}
+
+	.warranty-filters input[type="search"] {
+		min-width: 100%;
+	}
+
+	.warranty-template-box {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.template-icon {
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+}

@@ -1,0 +1,24 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Build files
+node_modules/
+vendor/
+*.log
+
+# WordPress
+wp-config.php
+wp-content/uploads/
+docs/
+
+# Backup files
+*.bak
+*.backup
+*~
+*.md

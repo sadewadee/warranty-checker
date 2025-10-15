@@ -1,0 +1,262 @@
+/**
+ * Public styles for Warranty Checker
+ *
+ * @package WarrantyChecker
+ */
+
+/* Main wrapper */
+.warranty-checker-wrapper {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 30px;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.warranty-checker-form {
+	position: relative;
+}
+
+/* Form title */
+.warranty-form-title {
+	margin: 0 0 20px 0;
+	padding: 0;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	color: #333;
+}
+
+/* Form fields */
+.warranty-search-form {
+	margin-bottom: 20px;
+}
+
+.warranty-form-field {
+	margin-bottom: 15px;
+}
+
+.warranty-input {
+	width: 100%;
+	padding: 12px 15px;
+	font-size: 16px;
+	border: 2px solid #ddd;
+	border-radius: 4px;
+	transition: border-color 0.3s;
+	box-sizing: border-box;
+}
+
+.warranty-input:focus {
+	outline: none;
+	border-color: #0073aa;
+}
+
+/* Submit button */
+.warranty-form-submit {
+	text-align: center;
+}
+
+.warranty-button {
+	display: inline-block;
+	padding: 12px 30px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background: #0073aa;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.warranty-button:hover {
+	background: #005a87;
+}
+
+.warranty-button:disabled {
+	background: #ccc;
+	cursor: not-allowed;
+}
+
+.warranty-button-secondary {
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 14px;
+	font-weight: 600;
+	color: #0073aa;
+	background: #fff;
+	border: 2px solid #0073aa;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.warranty-button-secondary:hover {
+	background: #0073aa;
+	color: #fff;
+}
+
+/* Loading state */
+.warranty-loading {
+	text-align: center;
+	padding: 30px;
+	color: #666;
+}
+
+.warranty-spinner {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border: 3px solid #f3f3f3;
+	border-top: 3px solid #0073aa;
+	border-radius: 50%;
+	animation: warranty-spin 1s linear infinite;
+}
+
+@keyframes warranty-spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+.warranty-loading-text {
+	display: block;
+	margin-top: 10px;
+	font-size: 14px;
+}
+
+/* Result display */
+.warranty-result {
+	margin-top: 20px;
+	animation: warranty-fade-in 0.3s ease-in;
+}
+
+@keyframes warranty-fade-in {
+	from { opacity: 0; transform: translateY(-10px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+
+.warranty-result-success {
+	padding: 20px;
+	background: #f7f7f7;
+	border: 2px solid #46b450;
+	border-radius: 4px;
+}
+
+.warranty-result-error {
+	padding: 20px;
+	background: #fff;
+	border: 2px solid #dc3232;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.warranty-result-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+.warranty-result-header h3 {
+	margin: 0;
+	font-size: 20px;
+	color: #333;
+}
+
+/* Status badges */
+.warranty-status {
+	display: inline-block;
+	padding: 5px 12px;
+	border-radius: 3px;
+	font-size: 13px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.warranty-status-active {
+	background: #d5f4e6;
+	color: #0a5e3a;
+}
+
+.warranty-status-expired {
+	background: #f8d7da;
+	color: #721c24;
+}
+
+.warranty-status-claimed {
+	background: #d1ecf1;
+	color: #0c5460;
+}
+
+.warranty-status-void {
+	background: #f5f5f5;
+	color: #666;
+}
+
+/* Result fields */
+.warranty-result-body {
+	margin-bottom: 20px;
+}
+
+.warranty-field {
+	display: flex;
+	padding: 10px 0;
+	border-bottom: 1px solid #eee;
+}
+
+.warranty-field:last-child {
+	border-bottom: none;
+}
+
+.warranty-field label {
+	flex: 0 0 150px;
+	font-weight: 600;
+	color: #666;
+}
+
+.warranty-field span {
+	flex: 1;
+	color: #333;
+}
+
+/* Error message */
+.warranty-result-error h3 {
+	margin: 0 0 10px 0;
+	color: #dc3232;
+	font-size: 18px;
+}
+
+.warranty-result-error p {
+	margin: 0 0 15px 0;
+	color: #666;
+}
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+	.warranty-checker-wrapper {
+		padding: 20px;
+		margin: 10px;
+	}
+
+	.warranty-form-title {
+		font-size: 20px;
+	}
+
+	.warranty-result-header {
+		flex-direction: column;
+		gap: 10px;
+		text-align: center;
+	}
+
+	.warranty-field {
+		flex-direction: column;
+	}
+
+	.warranty-field label {
+		margin-bottom: 5px;
+	}
+}

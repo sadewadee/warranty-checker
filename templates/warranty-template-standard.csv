@@ -1,0 +1,4 @@
+warranty_number,invoice_number,customer_name,customer_email,customer_phone,product_name,product_category,purchase_date,warranty_start_date,warranty_end_date,installer_name
+WRN-00001,INV-2025-001,John Doe,john@example.com,08123456789,Premium Window Tint,Window Film,2025-01-15,2025-01-15,2027-01-15,Tint Master Jakarta
+WRN-00002,INV-2025-002,Jane Smith,jane@example.com,08198765432,Full Body Sticker,Car Sticker,2025-02-20,2025-02-20,2027-02-20,Sticker Pro Bandung
+WRN-00003,INV-2025-003,Robert Johnson,robert@example.com,08156789012,Paint Protection Film,PPF,2025-03-10,2025-03-10,2028-03-10,Auto Care Center

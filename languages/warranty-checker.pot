@@ -1,0 +1,292 @@
+# Copyright (C) 2025 Warranty Checker
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Warranty Checker 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/warranty-checker\n"
+"POT-Creation-Date: 2025-01-15 00:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2025-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: warranty-checker.php
+msgid "Warranty Checker"
+msgstr ""
+
+#: includes/class-activator.php
+msgid "Check Your Warranty"
+msgstr ""
+
+msgid "Enter Warranty/Invoice Number"
+msgstr ""
+
+msgid "Check Warranty"
+msgstr ""
+
+msgid "Warranty found"
+msgstr ""
+
+msgid "Warranty not found"
+msgstr ""
+
+msgid "Please enter a valid warranty number"
+msgstr ""
+
+#: admin/class-admin.php
+msgid "Import Data"
+msgstr ""
+
+msgid "Data Management"
+msgstr ""
+
+msgid "Form Settings"
+msgstr ""
+
+msgid "Template & Help"
+msgstr ""
+
+msgid "Settings"
+msgstr ""
+
+msgid "Searching..."
+msgstr ""
+
+msgid "Too many requests. Please try again in 5 minutes."
+msgstr ""
+
+#: admin/partials/settings-import.php
+msgid "Import Warranty Data from Google Sheets"
+msgstr ""
+
+msgid "Google Sheets URL"
+msgstr ""
+
+msgid "Auto Import"
+msgstr ""
+
+msgid "Manual Only"
+msgstr ""
+
+msgid "Enable Auto Import"
+msgstr ""
+
+msgid "Import Schedule"
+msgstr ""
+
+msgid "Daily"
+msgstr ""
+
+msgid "Weekly"
+msgstr ""
+
+msgid "Save Settings"
+msgstr ""
+
+msgid "Import Now"
+msgstr ""
+
+msgid "Import History"
+msgstr ""
+
+msgid "Date"
+msgstr ""
+
+msgid "Total Rows"
+msgstr ""
+
+msgid "Imported"
+msgstr ""
+
+msgid "Updated"
+msgstr ""
+
+msgid "Skipped"
+msgstr ""
+
+msgid "Status"
+msgstr ""
+
+msgid "Completed"
+msgstr ""
+
+msgid "Failed"
+msgstr ""
+
+msgid "Processing"
+msgstr ""
+
+#: admin/partials/settings-data.php
+msgid "Warranty Records"
+msgstr ""
+
+msgid "Update Status Now"
+msgstr ""
+
+msgid "Search warranties..."
+msgstr ""
+
+msgid "All Statuses"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Expired"
+msgstr ""
+
+msgid "Claimed"
+msgstr ""
+
+msgid "Void"
+msgstr ""
+
+msgid "Filter"
+msgstr ""
+
+msgid "Warranty Number"
+msgstr ""
+
+msgid "Customer"
+msgstr ""
+
+msgid "Product"
+msgstr ""
+
+msgid "End Date"
+msgstr ""
+
+msgid "Actions"
+msgstr ""
+
+msgid "Delete"
+msgstr ""
+
+msgid "No warranty records found."
+msgstr ""
+
+#: admin/partials/settings-form.php
+msgid "Form Customization"
+msgstr ""
+
+msgid "Form Title"
+msgstr ""
+
+msgid "Input Placeholder"
+msgstr ""
+
+msgid "Button Text"
+msgstr ""
+
+msgid "Search Fields"
+msgstr ""
+
+msgid "Warranty Number Only"
+msgstr ""
+
+msgid "Invoice Number Only"
+msgstr ""
+
+msgid "Both (Search Either)"
+msgstr ""
+
+msgid "Save Form Settings"
+msgstr ""
+
+msgid "Shortcode"
+msgstr ""
+
+msgid "Shortcode Parameters"
+msgstr ""
+
+#: admin/partials/settings-template.php
+msgid "Standard Template"
+msgstr ""
+
+msgid "Standard Template (11 Columns)"
+msgstr ""
+
+msgid "Download Template"
+msgstr ""
+
+msgid "Template Columns"
+msgstr ""
+
+msgid "Column Name"
+msgstr ""
+
+msgid "Required"
+msgstr ""
+
+msgid "Description"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Quick Start Guide"
+msgstr ""
+
+msgid "Troubleshooting"
+msgstr ""
+
+#: public/partials/warranty-form.php
+msgid "Check Another Warranty"
+msgstr ""
+
+msgid "Try Again"
+msgstr ""
+
+#: includes/class-helper.php
+msgid "days remaining"
+msgstr ""
+
+msgid "days ago"
+msgstr ""
+
+#: includes/class-importer.php
+msgid "Invalid Google Sheets URL"
+msgstr ""
+
+msgid "Empty data received from Google Sheets"
+msgstr ""
+
+msgid "No data found in Google Sheets"
+msgstr ""
+
+msgid "Missing required column: warranty_number"
+msgstr ""
+
+msgid "Import completed: %d new, %d updated, %d skipped"
+msgstr ""
+
+#: includes/class-checker.php
+msgid "Warranty not found"
+msgstr ""
+
+#: includes/class-ajax.php
+msgid "Warranty number is required"
+msgstr ""
+
+msgid "Unauthorized access"
+msgstr ""
+
+msgid "Google Sheets URL is required"
+msgstr ""
+
+msgid "Updated %d warranties to expired status"
+msgstr ""
+
+msgid "Invalid warranty ID"
+msgstr ""
+
+msgid "Failed to delete warranty"
+msgstr ""
+
+msgid "Warranty deleted successfully"
+msgstr ""
