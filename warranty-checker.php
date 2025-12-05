@@ -1,11 +1,9 @@
 <?php
 /**
  * Plugin Name: Warranty Checker
- * Plugin URI: https://example.com/warranty-checker
  * Description: Mengelola dan menyediakan sistem pengecekan garansi secara online dengan import dari Google Sheets
  * Version: 1.0.0
- * Author: Your Name
- * Author URI: https://example.com
+ * Author: sadewadee
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: warranty-checker
