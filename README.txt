@@ -1,5 +1,5 @@
 === Warranty Checker ===
-Contributors: yourname
+Contributors: sadewadee
 Tags: warranty, checker, google sheets, customer service, woocommerce
 Requires at least: 5.8
 Tested up to: 6.4
